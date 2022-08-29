@@ -1,1 +1,115 @@
-<p>drum-kit works!</p>
+<section class="page">
+
+
+
+    <div
+        class="keys"
+        (document:keydown)="onKeydown($event)"
+    >
+        <div
+            class="key"
+            data-keyCode="KeyA"
+        >
+            <kbd>A</kbd>
+            <span class="sound">shaker</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyS"
+        >
+            <kbd>S</kbd>
+            <span class="sound">open-hi-hat</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyD"
+        >
+            <kbd>D</kbd>
+            <span class="sound">closed-hi-hat</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyF"
+        >
+            <kbd>F</kbd>
+            <span class="sound">punchy-kick</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyG"
+        >
+            <kbd>G</kbd>
+            <span class="sound">side-stick</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyH"
+        >
+            <kbd>H</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyJ"
+        >
+            <kbd>J</kbd>
+            <span class="sound">chord-1</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyK"
+        >
+            <kbd>K</kbd>
+            <span class="sound">chord-2</span>
+        </div>
+        <div
+            class="key"
+            data-keyCode="KeyL"
+        >
+            <kbd>L</kbd>
+            <span class="sound">chord-3</span>
+        </div>
+    </div>
+
+
+
+    <audio
+        data-keyCode="KeyA"
+        src="../../assets/audio/Give_us_a_light.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyS"
+        src="../../assets/audio/Dry_Ohh.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyD"
+        src="../../assets/audio/Bld_H1.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyF"
+        src="../../assets/audio/punchy_kick_1.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyG"
+        src="../../assets/audio/side_stick_1.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyH"
+        src="../../assets/audio/Brk_Snr.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyJ"
+        src="../../assets/audio/Chord_1.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyK"
+        src="../../assets/audio/Chord_2.mp3"
+    ></audio>
+    <audio
+        data-keyCode="KeyL"
+        src="../../assets/audio/Chord_3.mp3"
+    ></audio>
+
+
+
+</section>

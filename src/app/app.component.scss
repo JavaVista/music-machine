@@ -1,8 +1,22 @@
-:host {
+.page {
+    background: url(../assets/img/opera-67497_1920.jpg);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-  }
-  
- 
+    background-size: cover;
+    height: 100vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+    .header-container {
+        text-align: center;
+        font-family: "Monoton", cursive;
+        font-size: 2em;
+        color: #F7F7F9;
+        position: relative;
+        top: 150px;
+    }
+    .footer-container {
+        text-align: center;
+        bottom: 160px;
+        color: #F3F4F6;
+    }
+}
